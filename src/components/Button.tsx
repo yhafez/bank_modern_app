@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = ({ styles }: { styles: string }) => {
+const Button = ({ styles }: { styles?: string }) => {
     return (
         <button
             type="button"
